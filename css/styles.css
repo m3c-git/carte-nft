@@ -1,0 +1,55 @@
+/*GENERAL*/
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*CARD*/
+body {
+  background: hsl(217, 54%, 11%);
+  width: 1440px;
+}
+
+.card {
+  background: hsl(216, 50%, 16%);
+  padding: 25px;
+  border-radius: 30px;
+  margin: 25% auto;
+  width: 408px;
+}
+.card .img1 {
+  border-radius: 25px;
+  object-fit: cover;
+  width: 100%;
+}
+.card .price {
+  display: flex;
+  flex-direction: row;
+}
+.card .price .price1 {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+.card .price .price2 {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: end;
+}
+.card .price p {
+  margin-left: 6px;
+}
+
+footer {
+  margin-bottom: 20px;
+}
+footer .attribution {
+  margin-bottom: 0px;
+  font-size: 9px;
+}
+
+
+
+/*# sourceMappingURL=styles.css.map */
