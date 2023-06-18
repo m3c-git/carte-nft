@@ -9,7 +9,7 @@
 body
 {
   background: hsl(217, 54%, 11%);
-  width: 1440px;
+  max-width: 1440px;
 }
 
 
@@ -20,13 +20,30 @@ body
   padding: 25px;
   border-radius: 30px;
   margin: 25% auto;
-  width: 408px;
+  width: 350px;
+  font-family: 'Outfit', sans-serif;
+
 
   .img1
   {
-    border-radius: 25px;
+    border-radius: 8px;
     object-fit: cover;
     width: 100%;
+  }
+
+  h2
+  {
+    margin: 15px 0;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+  }
+
+  .text p
+  {
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 25px;
+
   }
 
 
@@ -38,9 +55,10 @@ body
     .price1
     {
       display: flex;
-
       flex-direction:row;
       width: 50%;
+      font-weight: 400;
+      color: hsl(178, 100%, 50%);
     }
     .price2
     {
@@ -48,22 +66,74 @@ body
       flex-direction:row;
       width: 50%;    
       justify-content: end;
+      color: hsl(215, 51%, 70%);
+      font-weight: 300;
     }
     p 
     {
       margin-left: 6px;
     }
   }
+
+  .divider
+  {
+    margin: 25px 0;
+    border: none;
+    height: 1px;
+    background: hsl(215, 32%, 27%);
+  }
+
+  .avatar
+  {
+    display: flex;
+    flex-direction: row;
+    align-content:center;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-size: 18px;
+
+
+
+    .img4
+    {
+      width: 35px;
+      height: 35px;
+      margin-right: 10px;
+      border: solid 1px hsl(0, 0%, 100%);
+      border-radius: 100%;
+    }
+
+    span
+    {
+      color: hsl(0, 0%, 100%);
+    }
+
+  }
 }
 
 
-footer {
-    margin-bottom: 20px;
+footer
+{
+  margin-bottom: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 
-    .attribution {
-        margin-bottom: 0px;
-        font-size: 9px;
-        }
+  .attribution 
+  {
+      margin-bottom: 0px;
+      font-size: 15px;
+      font-weight: lighter;
+      color: hsl(0, 0%, 100%);
+  }
+  a
+  {
+    text-decoration: none;
+  }
+
 }
 
 
